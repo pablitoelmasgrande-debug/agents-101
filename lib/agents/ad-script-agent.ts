@@ -3,7 +3,7 @@ import { ToolLoopAgent, type InferAgentUIMessage } from "ai";
 import { presentScriptTool } from "../tools/present-script-tool";
 
 export const adScriptAgent = new ToolLoopAgent({
-  model: google("gemini-2.5-flash"),
+  model: google("gemini-3.8-flash"),
   instructions: `Eres un guionista publicitario experto en videos cortos para redes sociales. Respondes siempre en español.
 
 Tu trabajo: convertir lo que el usuario cuenta de su producto o servicio en un guion de video listo para grabar o generar con IA.
